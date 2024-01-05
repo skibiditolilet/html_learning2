@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="index.html" method="get">
+    <label for="">ชื่อ - นามสกุล</label>
+    <input type="text" placeholder="">
+    <br>
+    <label for="">รหัสผ่าน</label>
+    <input type="password">
+    <br>
+    <label for="">วันที่</label>
+    <input type="datetime-local">
+    <br>
+    <labal for="">สี</labal>
+    <input type="color">
+    <br>
+    <label for="">อายุ</label>
+    <input type="number" min="1" max="10" value="1">
+    <br>
+    <div>
+        <label for="">งานอดิเรก</label>
+        <input type="checkbox" value="นอน">นอน
+        <input type="checkbox" value="กิน">กิน
+        <input type="checkbox" value="เล่นเกม">เล่นเกม
+    </div>
+    <label for="">ระดับชั้น</label>
+    <input type="radio" name="data" value="ปวช.">ปวฃ.
+    <input type="radio" name="data" value="ปวส.">ปวส.
+    <input type="radio" name="data" value="ป.ตรี">ป.ตรี
+    <br>
+    <label for="">เลือกจังหวัดที่เกิด</label>
+    <select >
+        <option>อุดรธานี</option>
+        <option>หนองคาย</option>
+        <option>หนองบัวลำภู</option>
+        <option>แอฟริกา</option>
+        <option>แม็กซีโก</option>
+    </select>
+    <br>
+    <label for="">ที่อยู่</label>
+    <textarea></textarea>
+    <br>
+    <input type="submit" value="ส่งข้อมูล">
+    <input type="reset">
+</form>
+</body>
+</html>
